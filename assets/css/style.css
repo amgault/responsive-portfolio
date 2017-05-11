@@ -268,7 +268,6 @@ body {
 		height: 400px;
 		width: 100%;
 	}
-
 	.portfoliotag {
 		font-size: 36px;
 		top: 300px;
@@ -276,15 +275,20 @@ body {
 		text-align: center;
 		width: 100%;
 	}
-
 	.portfoliodivleft {
 		float: none;
 		margin-bottom: 24px;
 	}
-
 	.portfoliodivright {
 		float: none;
 		margin-bottom: 24px;
+	}
+	.nameinput, .emailinput {
+		border: 1px solid #cccccc;
+		width: 100%;
+	}
+	.messageinput {
+		width: 100%;
 	}
 
 }
