@@ -250,7 +250,6 @@ body {
 		margin-right: 0px;
 		width: 100%;
 	}
-
 	.rightpanel {
 		float: none;
 		text-align: left;
@@ -264,6 +263,28 @@ body {
 	}
 	.footersep {
 		width: 100%;
+	}
+	.portfolioimage {
+		height: 400px;
+		width: 100%;
+	}
+
+	.portfoliotag {
+		font-size: 36px;
+		top: 300px;
+		padding: 20px 0px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.portfoliodivleft {
+		float: none;
+		margin-bottom: 24px;
+	}
+
+	.portfoliodivright {
+		float: none;
+		margin-bottom: 24px;
 	}
 
 }
