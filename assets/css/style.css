@@ -223,7 +223,7 @@ body {
 	}
 	.navlist {
 		float: none;
-		margin: 0 auto;
+		align-content: center;
 	}
 	.mainbody{
 		padding-bottom: 20px;
@@ -232,8 +232,8 @@ body {
 	.leftpanel {
 		float: none;
 		padding: 24px;
-		margin: 24px 24px;
-		width: 100%;
+		margin: 24px auto;
+		width: 90%;
 	}
 	.leftpanelheader {
 		font-size: 36px;
@@ -254,7 +254,7 @@ body {
 		text-align: left;
 		margin: 24px 24px;
 		padding: 24px;
-		width: 100%;
+		width: 97%;
 	}
 	.footer {
 		position: static;
@@ -292,7 +292,7 @@ body {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
 	.wrapper {
 		width: 768px;
 	}
@@ -315,8 +315,10 @@ body {
 	.leftpanel {
 		float: none;
 		padding: 24px;
-		margin: 24px 24px;
-		width: 100%;
+		margin: 24px auto;
+		width: 95%;
+		min-height: 100%;
+     	overflow-y: hidden;
 	}
 	.leftpanelheader {
 		font-size: 36px;
@@ -336,8 +338,9 @@ body {
 		float: none;
 		text-align: left;
 		margin: 24px 24px;
+		width: 97%;
 		padding: 24px;
-		width: 100%;
+		width: 97%;
 	}
 	.footer {
 		position: static;
@@ -382,13 +385,5 @@ body {
 		width: 250px;
 	}
 }
-
 @media screen and (max-width: 1460px) {
-
 }*/
-
-
-
-
-
-
