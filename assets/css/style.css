@@ -223,7 +223,7 @@ body {
 	}
 	.navlist {
 		float: none;
-		align-content: center;
+		margin: 0px 180px;
 	}
 	.mainbody{
 		padding-bottom: 20px;
@@ -252,9 +252,9 @@ body {
 	.rightpanel {
 		float: none;
 		text-align: left;
-		margin: 24px 24px;
+		margin: 24px auto;
 		padding: 24px;
-		width: 97%;
+		width: 90%;
 	}
 	.footer {
 		position: static;
@@ -337,10 +337,9 @@ body {
 	.rightpanel {
 		float: none;
 		text-align: left;
-		margin: 24px 24px;
-		width: 97%;
+		margin: 24px auto;
+		width: 95%;
 		padding: 24px;
-		width: 97%;
 	}
 	.footer {
 		position: static;
